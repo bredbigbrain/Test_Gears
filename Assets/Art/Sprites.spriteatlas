@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 31
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 2f02dedc802c46047b5ac525e02284c9, type: 3}
+    - {fileID: 2800000, guid: 959350fcba597bc4d9efc951f43de034, type: 3}
+    - {fileID: 2800000, guid: c5f6bf6259e0c5344bb2931b553f416d, type: 3}
+    - {fileID: 2800000, guid: 40fd62b51fe7ea64cbcd71314c3751bb, type: 3}
+    - {fileID: 2800000, guid: b8edab6b7bbf55b4fbb116b3a1337fb6, type: 3}
+    - {fileID: 2800000, guid: 890b13e5b459cbd4abe53334eda18ce5, type: 3}
+    - {fileID: 2800000, guid: d33162a6ca06f654295cae37ef122118, type: 3}
+    - {fileID: 2800000, guid: a8d404fd6c521c546934174199a64665, type: 3}
+    - {fileID: 2800000, guid: b75cd506a7a17074692ce03773511d0d, type: 3}
+    totalSpriteSurfaceArea: 1477910
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c5f6bf6259e0c5344bb2931b553f416d, type: 3}
+  - {fileID: 21300000, guid: 40fd62b51fe7ea64cbcd71314c3751bb, type: 3}
+  - {fileID: 21300000, guid: 890b13e5b459cbd4abe53334eda18ce5, type: 3}
+  - {fileID: 21300000, guid: b75cd506a7a17074692ce03773511d0d, type: 3}
+  - {fileID: 21300000, guid: d33162a6ca06f654295cae37ef122118, type: 3}
+  - {fileID: 21300000, guid: b8edab6b7bbf55b4fbb116b3a1337fb6, type: 3}
+  - {fileID: 21300000, guid: 2f02dedc802c46047b5ac525e02284c9, type: 3}
+  - {fileID: 21300000, guid: 959350fcba597bc4d9efc951f43de034, type: 3}
+  - {fileID: 21300000, guid: a8d404fd6c521c546934174199a64665, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - MechBg
+  - n1
+  - RightMask
+  - s3
+  - s1
+  - RightBigGear
+  - background
+  - LeftMask
+  - s2
+  m_Tag: Sprites
+  m_IsVariant: 0
