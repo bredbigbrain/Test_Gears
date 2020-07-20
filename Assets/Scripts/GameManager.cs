@@ -83,7 +83,8 @@ public class GameManager : MonoSingleton<GameManager>
     IEnumerator AnimateGears()
     {
         int direction = 1;
-        Action<Transform> Rotate = (Transform transform) => {
+        void Rotate(Transform transform) 
+        {
             float angle = gearRotationSpeed * Mathf.PI * Time.deltaTime / transform.GetComponent<CircleCollider2D>().radius;
             transform.Rotate(Vector3.forward, angle * direction, Space.Self);
             direction *= -1;

@@ -33,7 +33,7 @@ public class Gear : MonoBehaviour
 
     bool IsAvailableForUser
     {
-        get => isAwailable & GameManager.Instance.animatedGearsCount == 0;
+        get => isAwailable && GameManager.Instance.animatedGearsCount == 0;
     }
 
     void OnMouseDown()
@@ -67,7 +67,7 @@ public class Gear : MonoBehaviour
         if (!IsAvailableForUser)
             return;
 
-        Action Reset = () =>
+        void Reset()
         {
             SoundsManager.Instance.Play(SoundsManager.ClipType.GearPut);
             GameManager.Instance.ResetGear(this);

@@ -25,7 +25,7 @@ public class SceneManager : MonoSingleton<SceneManager>
 
     void ScaleBackgroundToFitScreen()
     {
-        Func<Vector3> GetBGLeftEdge = () =>
+        Vector3 GetBGLeftEdge()
         {
             Vector3 leftEdge = background.transform.position;
             leftEdge.x -= background.bounds.size.x / 2;

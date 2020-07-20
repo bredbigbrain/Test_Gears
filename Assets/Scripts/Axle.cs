@@ -64,7 +64,7 @@ public class Axle : MonoBehaviour
     {
         currentGear.isAwailable = true;
         GameManager.Instance.animatedGearsCount--;
-        if (moveCompleted & IsRequiredGearOnPlace())
+        if (moveCompleted && IsRequiredGearOnPlace())
             GameManager.Instance.CheckWin();
         moveGearCoroutine = null;
     }
